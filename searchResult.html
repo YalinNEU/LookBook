@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Heroic Features - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/heroic-features.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="new.css">
+
+
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+
+    <link href="css/searchResult.css" rel="stylesheet">
+
+    <script src="js/myFavourites.js"></script>
+
+    <!-- Below link for top nav -->
+    <link href="library/bootstrap3/css/bootstrap.css" rel="stylesheet" />
+    <link href="library/bootstrap3/css/font-awesome.css" rel="stylesheet" />
+
+    <link href="library/assets/css/gsdk.css" rel="stylesheet" />
+    <link href="library/assets/css/demo.css" rel="stylesheet" />
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Sancreek' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+<div id="navbar-full">
+    <div id="navbar">
+
+        <nav class="navbar navbar-ct-grey navbar-fixed-top" role="navigation">
+
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">LookBook</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="javascript:void(0);" data-toggle="search" class="hidden-xs"><i class="fa fa-search"></i></a>
+                        </li>
+                    </ul>
+                    <form class="navbar-form navbar-left navbar-search-form" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" onkeypress="handle(event)" placeholder="Search...">
+                        </div>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="myFavourites.html" class="cart">My Favourites</a></li>
+                        <li><a href="#" class="hidden-xs"><i class="fa fa-heart"><span class='number'>&nbsp;&nbsp;0</span></i></a></li>
+                        <li><div class='mini'>
+                            <p class='products'>Empty</p>
+                            <p class='names'></p>
+                        </div>
+                        </li>
+                    </ul>
+                </div><!-- end of navbar-collapse -->
+            </div><!-- end of container -->
+        </nav>
+    </div><!--  end navbar -->
+</div> <!-- end menu-dropdown -->
+
+<!--&lt;!&ndash; Navigation &ndash;&gt;-->
+<!--<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">-->
+    <!--<div class="container">-->
+        <!--&lt;!&ndash; Brand and toggle get grouped for better mobile display &ndash;&gt;-->
+        <!--<div class="navbar-header">-->
+            <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">-->
+                <!--<span class="sr-only">Toggle navigation</span>-->
+                <!--<span class="icon-bar"></span>-->
+                <!--<span class="icon-bar"></span>-->
+                <!--<span class="icon-bar"></span>-->
+            <!--</button>-->
+            <!--<a class="navbar-brand" href="#">Look Book</a>-->
+        <!--</div>-->
+        <!--&lt;!&ndash; Collect the nav links, forms, and other content for toggling &ndash;&gt;-->
+        <!--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">-->
+            <!--<ul class="nav navbar-nav">-->
+                <!--<li>-->
+                    <!--<a href="#">About</a>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<a href="#">Services</a>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<a href="#">Contact</a>-->
+                <!--</li>-->
+            <!--</ul>-->
+        <!--</div>-->
+        <!--&lt;!&ndash; /.navbar-collapse &ndash;&gt;-->
+    <!--</div>-->
+    <!--&lt;!&ndash; /.container &ndash;&gt;-->
+<!--</nav>-->
+
+<!--<div id="pictures">-->
+
+<!--</div>-->
+
+
+
+<!-- Page Content -->
+<div class="container">
+
+    <!-- Jumbotron Header -->
+
+
+    <hr>
+
+    <!-- Title -->
+    <div class="row">
+        <div class="col-lg-12">
+            <p>Search&nbsp&nbspResults&nbsp&nbspFor&nbsp&nbsp"&nbsp<span id="keyword"></span>&nbsp"</p>
+        </div>
+    </div>
+    <!-- /.row -->
+    <hr>
+
+
+    <!-- Page Features -->
+    <div class="row text-center" id="combo">
+
+        <!--sample div which js will add />-->
+        <!--<div class="product-card">-->
+            <!--<div class="product-img">-->
+                <!--<img src="http://res.cloudinary.com/faaezahmd/image/upload/v1491419207/product2_opvv30.png" alt="handbag" />-->
+            <!--</div>-->
+
+
+            <!--<div class="product-details">-->
+                <!--<h2 class="product-name">Hand Made</h2>-->
+                <!--<p class="seller">by Maria Cruz</p>-->
+                <!--<p class="price">250</p>-->
+                <!--<a href="#" class="add-product">Add to Cart</a>-->
+            <!--</div>-->
+        <!--</div>-->
+
+    </div>
+    <!-- /.row -->
+
+    <!--<div class="wave">-->
+        <!--<img src="images/wave.jpg">-->
+    <!--</div>-->
+
+    <hr>
+
+
+</div>
+
+
+<!-- /.container -->
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<div class="row">
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <h3>Look<span>Book</span></h3>
+
+            <p class="footer-links">
+                <a href="index.html">Home</a>
+                ·
+                <a href="myFavourites.html">My Likes</a>
+                ·
+                <a href="mailto:support@husky.neu.edu">Contact</a>
+            </p>
+
+            <p class="footer-company-name">Lookbook &copy; 2017</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>225 Terry Ave</span> Seattle, WA</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+1 123 456789</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@company.com">support@husky.neu.edu</a></p>
+            </div>
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <span>About the website</span>
+                Lookbook is a fashion design website. It helps visitors to keep in track of fashion trend and it is a guide for choosing gift.
+            </p>
+
+            <div class="footer-icons">
+
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</div>
+
+
+
+
+
+<!--&lt;!&ndash; below link add for topnav &ndash;&gt;-->
+<!--<script src="get-shit-done-1.4 3.1/bootstrap3/js/bootstrap.js" type="text/javascript"></script>-->
+<!--<script src="get-shit-done-1.4 3.1/assets/js/gsdk-bootstrapswitch.js"></script>-->
+
+<!-- below link add for topnav -->
+<script src="library/bootstrap3/js/bootstrap.js" type="text/javascript"></script>
+<script src="library/assets/js/gsdk-bootstrapswitch.js"></script>
+<script src="library/assets/js/get-shit-done.js"></script>
+
+<!-- below link for search function -->
+<script src="js/search.js"></script>
+<script src="js/searchResult.js"></script>
+
+<!--below link for my favourites function -->
+<script src="js/likeButton.js"></script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Blogger</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <link href="css/custom-theme/jquery-ui-1.10.0.custom.css" type="text/css" rel="stylesheet">
+
+
+        <!-- Below link for font -->
+        <link href="https://fonts.googleapis.com/css?family=Monda" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+
+
+        <!-- Below link for footer -->
+        <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+
+        <!-- Below link for top nav -->
+        <link href="library/bootstrap3/css/bootstrap.css" rel="stylesheet" />
+        <link href="library/bootstrap3/css/font-awesome.css" rel="stylesheet" />
+
+        <link href="library/assets/css/gsdk.css" rel="stylesheet" />
+        <link href="library/assets/css/demo.css" rel="stylesheet" />
+
+        <!-- Below link for layout -->
+        <link rel="stylesheet" href="css/blogger_main.css">
+        <!--Below link for my favourites>-->
+        <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.2.4/css/simple-line-icons.min.css'>
+
+
+
+    </head>
+
+	<body data-template="news" class="is-loaded is-mobile is-animated">
+
+		<div id="navbar-full">
+    		<div id="navbar">
+
+        		<nav class="navbar navbar-ct-grey navbar-fixed-top" role="navigation">
+
+          			<div class="container">
+            		<!-- Brand and toggle get grouped for better mobile display -->
+            			<div class="navbar-header">
+              				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              					<span class="sr-only">Toggle navigation</span>
+				                <span class="icon-bar"></span>
+				                <span class="icon-bar"></span>
+				                <span class="icon-bar"></span>
+              				</button>
+              				<a class="navbar-brand" href="index.html">LookBook</a>
+            			</div>
+
+		            	<!-- Collect the nav links, forms, and other content for toggling -->
+			            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			              	<ul class="nav navbar-nav">
+			                	<li>
+			                    	<a href="javascript:void(0);" data-toggle="search" class="hidden-xs"><i class="fa fa-search"></i></a>
+			                	</li>
+			              	</ul>
+			            	<form class="navbar-form navbar-left navbar-search-form" role="search">
+			                	<div class="form-group">
+			                    	<input type="text" class="form-control" onkeypress="handle(event)" placeholder="Search...">
+			                 	</div>
+			              	</form>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="myFavourites.html">My Likes</a></li>
+                                <li><a href="#" class="hidden-xs"><i class="fa fa-heart"><span class='number'>&nbsp&nbsp&nbsp0</span></i></a></li>
+                            </ul>
+			            </div><!-- end of navbar-collapse -->
+          			</div><!-- end of container -->
+        		</nav>
+    		</div><!--  end navbar -->
+		</div> <!-- end menu-dropdown -->
+
+       <main data-module="ScrollPage">
+
+            <div class="o-page js-template" data-template="news">
+
+                <header class="c-header-page -fixed -news">
+                    <div class="c-header-page_section -auto-medium js-scroll-section is-active" data-scroll-section="1" data-scroll-section-translate="false">
+                        <div class="c-header-page_item">
+                            <div class="c-header-page_content -load -dark -noright">
+                                <p class="c-header-page_subtitle">Bloggers</p>
+                                <h1 class="c-header-page_title -small -lowercase -white">
+                                    Classic <br>&amp Casual <br>Style
+                                </h1>
+
+                                <a href="" class="o-button-anchor js-scroll-section-next"><p class="c-header-page_subtitle">&#8594 See related bloggers</p></a>
+
+                            </div>
+                        </div>
+                        <div class="c-header-page_item">
+                            <div class="c-header-page_image -load -white o-background"></div>
+                        </div>
+                        <div class="o-button-next -load -white -nomedium"></div>
+                    </div>
+                </header>
+
+                <div class="c-news-wrap o-container">
+                    <div class="o-grid -margin">
+                        <div class="o-grid_item -two-thirds -medium -whole-medium">
+                            <div class="c-news" data-module="News">
+                                <article class="c-news_item js-news-item">
+                                    <div class="c-news_wrap">
+                                        <div class="container-flex-row-center-nowrap">
+                                            <div class="profile-pic">
+                                                <img class="scale" src="images/blogger/C_C/sassy-look1.jpg">
+                                            </div>
+                                            <div class="container-flex-column-left">
+                                                <h1 class="">Sassy</h1>
+                                                <p class="">Body positivity always overdressed, always real</p>
+                                                <p>
+                                                    <a href="https://www.instagram.com/sassyredlipstick/">
+                                                    <i class="fa fa-instagram"></i>
+                                                    88.8K+ followers
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="c-news_main s-wysiwyg js-news-main">
+                                            <div class="c-news_content container-flex-column-center">
+                                            <h1 class="bottom-line-text">
+                                                        Sassy's Look
+                                            </h1>
+                                                <div class="container-flex-column-center bg-white">
+
+
+                                                    <div class="product-pic">
+                                                        <img src="images/blogger/C_C/sassy-look1.jpg" alt="Sassy's look" id="C_C/sassy-look1">
+                                                    </div>
+                                                    <p class="bottom-line-text">Shop the Look</p>
+                                                    <div class="container-flex-row-left-wrap items">
+
+                                                        <div class="items-pic">
+                                                            <a href="http://us.asos.com/fashion-union/fashion-union-wrap-front-skirt-in-gingham/prd/7575315?MID=35719&SearchQuery=gingham+skirt&channelref=Affiliate&clr=Gingham&gridcolumn=1&gridrow=3&gridsize=3&iid=7575315&link=15&pge=0&pgesize=32&promo=307314&pubref=QFGLnEolOWg&siteID=QFGLnEolOWg-GroTKOYNL.ZPLuAIzdapkQ&source=linkshare&totalstyles=32&utm_campaign=QFGLnEolOWg&utm_content=USNetwork.1&utm_medium=LinkShare&utm_source=Affiliate&utm_source=Affiliate&utm_medium=LinkShare&utm_content=USNetwork.1&utm_campaign=QFGLnEolOWg&link=15&promo=307314&source=linkshare&MID=35719&affid=2135&channelref=Affiliate&pubref=QFGLnEolOWg&siteID=QFGLnEolOWg-LPrDXjxp7MehELrsCrjfqA" target="_blank">
+                                                                <img class="image-responsive" src="images/blogger/C_C/sassy-w1-dress-black.jpg" alt="dress">
+                                                            </a>
+
+                                                        </div>
+
+
+                                                        <div class="items-pic">
+                                                            <a href="http://us.asos.com/asos-white/asos-white-shirt-with-bell-sleeve/prd/7318061?MID=35719&SearchQuery=bell+sleeves&channelref=Affiliate&clr=White&gridcolumn=3&gridrow=12&gridsize=3&iid=7318061&link=15&pge=0&pgesize=36&promo=307314&pubref=QFGLnEolOWg&siteID=QFGLnEolOWg-DKtagcCXQveeaCo.A9o2lQ&source=linkshare&totalstyles=84&utm_campaign=QFGLnEolOWg&utm_content=USNetwork.1&utm_medium=LinkShare&utm_source=Affiliate&utm_source=Affiliate&utm_medium=LinkShare&utm_content=USNetwork.1&utm_campaign=QFGLnEolOWg&link=15&promo=307314&source=linkshare&MID=35719&affid=2135&channelref=Affiliate&pubref=QFGLnEolOWg&siteID=QFGLnEolOWg-ZPIJJlo7s6hrlvaxtT3Ywg" target="_blank">
+                                                                <img class="image-responsive" src="images/blogger/C_C/sassy-w1-top-blue.jpg" alt="top">
+                                                            </a>
+                                                        </div>
+
+
+                                                        <div class="items-pic">
+                                                            <a href="http://shop.nordstrom.com/s/steve-madden-jole-embellished-slide-sandal-women/4600499?fashioncolor=BLACK&origin=keywordsearch-personalizedsort&siteId=QFGLnEolOWg-sQzH68AFTVr07hzp.cxPUw&cm_mmc=Linkshare-_-partner-_-15-_-1" target="_blank">
+                                                                <img class="image-responsive" src="images/blogger/C_C/sassy-w1-shoes-black.jpg" alt="shoes">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="items-pic">
+                                                            <a href="http://shop.nordstrom.com/s/le-specs-halfmoon-magic-51mm-cat-eye-sunglasses/4078007?fashioncolor=MATTE%20BLACK/%20GOLD&origin=keywordsearch-personalizedsort&cm_mmc=Linkshare-_-partner-_-15-_-1&siteId=QFGLnEolOWg-fs.lr4YKGhlu.SnkSNIjJw" target="_blank">
+                                                                <img class="image-responsive" src="images/blogger/C_C/sassy-w1-sunglass-yellow.jpg" alt="sunglass">
+                                                            </a>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="container-flex-row-center-nowrap add-margin">
+                                                        <button class="blogger-btn" onclick="addToMyLike(this)" name="C_C/sassy-look1.jpg"><i class="fa fa-heart"></i>&#32&#32Like</button>
+                                                        <button class="blogger-btn"><i class="fa fa-share"></i>&#32&#32Share</button>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="c-news_content">
+                                                <div class="container-flex-column-center bg-white">
+                                                    <div class="product-pic">
+                                                        <img src="images/blogger/C_C/sassy-look2.jpg" alt="Sassy's look" id="C_C/sassy-look2">
+                                                    </div>
+                                                    <p class="bottom-line-text">Shop the Look</p>
+                                                    <div class="container-flex-row-left-wrap items">
+
+                                                        <div class="items-pic">
+                                                            <a href="http://us.asos.com/miss-selfridge/miss-selfridge-gingham-tie-front-shirt-dress/prd/7606400?SearchQuery=gingham+dress+pink&clr=Pink&gridcolumn=1&gridrow=2&gridsize=3&iid=7606400&pge=0&pgesize=8&totalstyles=8&utm_source=Affiliate&utm_medium=LinkShare&utm_content=USNetwork.1&utm_campaign=QFGLnEolOWg&link=15&promo=307314&source=linkshare&MID=35719&affid=2135&channelref=Affiliate&pubref=QFGLnEolOWg&siteID=QFGLnEolOWg-4X4rL7PMeshMN616ozIzbg" target="_blank">
+                                                                <img class="image-responsive" src="images/blogger/C_C/sassy-w2-dress-pink.jpg" alt="dress">
+                                                            </a>
+
+                                                        </div>
+
+
+                                                        <div class="items-pic">
+                                                            <a href="http://www.neimanmarcus.com/Gucci-GG-Marmont-2-0-Medium-Pearly-Shoulder-Bag/prod193780751_cat47730732__/p.prod?icid=" target="_blank">
+                                                                <img class="image-responsive" src="images/blogger/C_C/sassy-w2-bag-black.jpg" alt="bag">
+                                                            </a>
+                                                        </div>
+
+
+                                                        <div class="items-pic">
+                                                            <a href="http://shop.nordstrom.com/s/steve-madden-jole-embellished-slide-sandal-women/4600499?fashioncolor=BLACK&origin=keywordsearch-personalizedsort&siteId=QFGLnEolOWg-VqfA4RvGgITVKGmDxm00Ow&cm_mmc=Linkshare-_-partner-_-15-_-1" target="_blank">>
+                                                                <img class="image-responsive" src="images/blogger/C_C/sassy-w2-shoes-black.jpg" alt="shoes">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="items-pic">
+                                                            <a href="https://www.amazon.com/Celine-Sunglasses-41090-FU5Z3-Havana/dp/B00UMB0EVM/ref=sr_1_3?s=apparel&ie=UTF8&qid=1489593150&sr=1-3&nodeID=7141123011&keywords=celine+catherine+sunglasses&tag=rewardstyle-20&ascsubtag=ZSwzKa1wue-is-n-ch237zz43e--2164918151-_4OZr1f3WN4C" target="_blank">
+                                                                <img class="image-responsive" src="images/blogger/C_C/sassy-w2-sunglass-black.jpg" alt="sunglass">
+                                                            </a>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="container-flex-row-center-nowrap add-margin">
+                                                        <button class="blogger-btn" onclick="addToMyLike(this)" name="C_C/sassy-look2.jpg"><i class="fa fa-heart"></i>&#32&#32Like</button>
+                                                        <button class="blogger-btn"><i class="fa fa-share"></i>&#32&#32Share</button>
+                                                    </div>
+                                                </div>
+
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="c-news_plus js-news-close"><span class="c-news_plus_wrap"></span></span>
+                                </article>
+
+                                <article class="c-news_item js-news-item">
+                                    <div class="c-news_wrap">
+                                        <div class="container-flex-row-center-nowrap">
+                                            <div class="profile-pic">
+                                                <img class="scale" src="images/blogger/C_C/ashley-look1.jpg">
+                                            </div>
+                                            <div class="container-flex-column-left">
+                                                <h1 class="">Fancy Ashley</h1>
+                                                <p class="">Everyday needs a little fancy. Love fashion Love food</p>
+                                                <p>
+                                                    <a href="https://www.instagram.com/thefancyashley/">
+                                                    <i class="fa fa-instagram"></i>
+                                                    42.7K+ followers
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="c-news_main s-wysiwyg js-news-main">
+                                            <div class="c-news_content container-flex-column-center">
+                                            <h1 class="bottom-line-text">
+                                                        Ashley's Look
+                                            </h1>
+                                                <div class="container-flex-column-center bg-white">
+
+
+                                                    <div class="product-pic">
+                                                        <img src="images/blogger/C_C/ashley-look1.jpg" alt="Ashley's look" id="ashley-look1">
+                                                    </div>
+                                                    <p class="bottom-line-text">Shop the Look</p>
+                                                    <div class="container-flex-row-left-wrap items">
+
+                                                        <div class="items-pic">
+                                                            <a href="https://www.jcrew.com/p/womens_category/readytopartycollection/preorder-tiered-scalloped-skirt-in-eyelet/g3556?isFromSearch=true&color_name=navy&N=0&Nloc=en&Ntrm=eyelet&Npge=1&Nrpp=60&Nsrt=0&srcCode=AFFI00001&siteId=QFGLnEolOWg-howT7AheMvkQdL8B4kXuSA" target="_blank">
+                                                                <img class="image-responsive" src="images/blogger/C_C/ashley-w1-dress-blue.jpg" alt="dress">
+                                                            </a>
+                                                        </div>
+
+
+                                                        <div class="items-pic">
+                                                            <a href="http://shop.nordstrom.com/s/sam-edelman-hazel-pointy-toe-pump-women/4381926?fashioncolor=NUDE%20LEATHER&origin=keywordsearch-personalizedsort&cm_mmc=Linkshare-_-partner-_-15-_-1&siteId=QFGLnEolOWg-JpztIHID58pY_SMrtCsc5w" target="_blank">
+                                                                <img class="image-responsive" src="images/blogger/C_C/ashley-w1-shoes-pink.jpg" alt="shoes">
+                                                            </a>
+                                                        </div>
+
+
+                                                        <div class="items-pic">
+                                                            <a href="http://shop.nordstrom.com/s/phase-3-foldover-clutch/4481029?fashioncolor=TAN%20CAMEL&origin=keywordsearch-personalizedsort&cm_mmc=Linkshare-_-partner-_-15-_-1&siteId=QFGLnEolOWg-CXrpBun8MaBlHEC3qfE2FQ" target="_blank">
+                                                                <img class="image-responsive" src="images/blogger/C_C/ashley-w1-bag-yellow.jpg" alt="bag">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="items-pic">
+                                                            <a href="http://shop.nordstrom.com/s/karen-walker-super-duper-strength-55mm-sunglasses/4297711?fashioncolor=CRAZY%20TORTOISE&origin=keywordsearch-personalizedsort&cm_mmc=Linkshare-_-partner-_-15-_-1&siteId=QFGLnEolOWg-4XiWdh1ga71r5HiXZtFxGQ" target="_blank">
+                                                                <img class="image-responsive" src="images/blogger/C_C/ashley-w1-sunglass-yellow.jpg" alt="sunglass">
+                                                            </a>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="container-flex-row-center-nowrap add-margin">
+                                                        <button class="blogger-btn" onclick="addToMyLike(this)" name="C_C/lynleeposton-look1.jpg"><i class="fa fa-heart"></i>&#32&#32Like</button>
+                                                        <button class="blogger-btn"><i class="fa fa-share"></i>&#32&#32Share</button>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="c-news_content">
+                                                <div class="container-flex-column-center bg-white">
+                                                    <div class="product-pic">
+                                                        <img src="images/blogger/C_C/ashley-look2.jpg" alt="Carriec's look" id="C_C/lynleeposton-look2">
+                                                    </div>
+                                                    <p class="bottom-line-text">Shop the Look</p>
+                                                    <div class="container-flex-row-left-wrap items">
+
+                                                        <div class="items-pic">
+                                                            <a href="http://shop.nordstrom.com/s/soprano-bell-sleeve-top/4542146?fashioncolor=NAVY&origin=keywordsearch-personalizedsort&cm_mmc=Linkshare-_-partner-_-15-_-1&siteId=QFGLnEolOWg-Q4wGjiyE23Hnpsjvz_mZgA" target="_blank">
+                                                                <img class="image-responsive" src="images/blogger/C_C/ashley-w2-top-pink.jpg" alt="top">
+                                                            </a>
+                                                        </div>
+
+
+                                                        <div class="items-pic">
+                                                            <a href="http://shop.nordstrom.com/s/articles-of-society-sarah-distressed-skinny-jeans-whitehall/4505691?origin=PredictiveSearchProducts&cm_mmc=Linkshare-_-partner-_-15-_-1&siteId=QFGLnEolOWg-Ygm78HBjO6mKkNYXPBtKaA" target="_blank">
+                                                                <img class="image-responsive" src="images/blogger/C_C/ashley-w2-jean-white.jpg" alt="jean">
+                                                            </a>
+                                                        </div>
+
+
+                                                        <div class="items-pic">
+                                                            <a href="https://www.baublebar.com/product/31888-metallic-crispin-drop?sku=30153&utm_content=generic_link&utm_source=pepperjam&utm_medium=affiliate&utm_campaign=73861&cvosrc=affiliate.pepperjam.73861&clickid=1940703469" target="_blank">
+                                                                <img class="image-responsive" src="images/blogger/C_C/ashley-w2-earrings-gold.jpg" alt="earrings">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="items-pic">
+                                                            <a href="http://shop.nordstrom.com/s/marc-fisher-ltd-adalyn-espadrille-wedge-sandal-women/4232681?fashioncolor=OLIVE%20SUEDE&origin=keywordsearch-personalizedsort&siteId=QFGLnEolOWg-1xGnoAPBI0FuwuZtfly5BA&cm_mmc=Linkshare-_-partner-_-15-_-1" target="_blank">
+                                                                <img class="image-responsive" src="images/blogger/C_C/ashley-w2-shoes-yellow.jpg" alt="shoes">
+                                                            </a>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="container-flex-row-center-nowrap add-margin">
+                                                        <button class="blogger-btn" onclick="addToMyLike(this)" name="C_C/lynleeposton-look2.jpg"><i class="fa fa-heart"></i>&#32&#32Like</button>
+                                                        <button class="blogger-btn"><i class="fa fa-share"></i>&#32&#32Share</button>
+                                                    </div>
+                                                </div>
+
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="c-news_plus js-news-close"><span class="c-news_plus_wrap"></span></span>
+                                </article>
+
+
+
+                                <div >
+                                    <button class="o-button-next -relative -on-black" type="button"><span><span class="o-button-next_label"></span> <svg class="o-button-next_icon" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="assets/images/sprite.svg#arrow-small-down"></use></svg></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script>
+                window.templateData = window.templateData || {};
+
+            </script>
+
+        </main>
+
+
+
+
+        <footer class="footer-distributed">
+            <div class="footer-left">
+                <h3>Look<span>Book</span></h3>
+                <p class="footer-links">
+                    <a href="index.html">Home</a>
+                    ·
+                    <a href="myFavourites.html">My Likes</a>
+                    ·
+                    <a href="mailto:support@husky.neu.edu">Contact</a>
+                </p>
+                <p class="footer-company-name">Lookbook &copy; 2017</p>
+            </div>
+            <div class="footer-center">
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>225 Terry Ave</span> Seattle, WA</p>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+1 123 456789</p>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:support@company.com">support@husky.neu.edu</a></p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p class="footer-company-about">
+                    <span>About the website</span>
+                    Lookbook is a fashion design website. It helps visitors to keep in track of fashion trend and it is a guide for choosing gift.
+                </p>
+                <div class="footer-icons">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+    	</footer>
+
+        <!-- below link add for topnav -->
+        <script src="library/bootstrap3/js/bootstrap.js" type="text/javascript"></script>
+        <script src="library/assets/js/gsdk-bootstrapswitch.js"></script>
+        <script src="library/assets/js/get-shit-done.js"></script>
+
+        <!-- below link for layout -->
+        <script src="js/vendors.js"></script>
+        <script src="js/app.js"></script>
+        
+        <!-- below link for search function -->
+        <script src="js/search.js"></script>
+
+        <!--below link for my favourites function -->
+        <script src="js/likeButton.js"></script>
+
+	</body>
+
+</html>

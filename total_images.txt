@@ -1,0 +1,17 @@
+ {
+ 	"images/gifts/f-low-bright-curve-02-01.jpg" : {"name" : "Crossbody bag with multicoloured", "seller" : "ZARA", "price" : "39.90", "url" : "https://www.zara.com/us/en/woman/bags/view-all/crossbody-bag-with-multicoloured-strap-c819022p4258048.html"},
+ 	"images/gifts/f-low-bright-curve-03-01.jpg" : {"name" : "Low bright curve", "seller" : "ROSE", "price" : "59.99", "url" : "http://www.hm.com/us/product/63953?article=63953-A"},
+ 	"images/gifts/m-low-dark-regular-01-01.jpg" : {"name" : "Cotton Shirt Regular Fit", "seller" : "HM", "price" : "24.99", "url" : "http://www.hm.com/us/product/58446?article=58446-F#article=58446-F"},
+    "images/gifts/m-low-dark-regular-02-01.jpg" : {"name" : "Skinny Low Jeans", "seller" : "HM", "price" : "19.99", "url" : "http://www.hm.com/us/product/47714?article=47714-B&cm_vc=GOES_WITH_PD"},
+    "images/gifts/m-low-dark-regular-03-01.jpg" : {"name" : "Backpack", "seller" : "HM", "price" : "24.99", "url" : "http://www.hm.com/us/product/48087?article=48087-D&cm_vc=GOES_WITH_PD"},
+    "images/gifts/m-low-dark-regular-04-01.jpg" : {"name" : "Cotton Canvas Sneakers", "seller" : "HM", "price" : "29.99", "url" : "http://www.hm.com/us/product/63867?article=63867-B"},
+    "images/gifts/m-low-dark-regular-05-01.jpg" : {"name" : "Weekend Bag", "seller" : "HM", "price" : "49.99", "url" : "http://www.hm.com/us/product/60598?article=60598-A"},
+    "images/gifts/m-low-dark-regular-06-01.jpg" : {"name" : "Blazer Slim fit", "seller" : "HM", "price" : "69.99", "url" : "http://www.hm.com/us/product/56281?article=56281-N"},
+    "images/gifts/f-low-dark-regular-01-01.jpg" : {"name" : "Ungendered power rangers t-shirt", "seller" : "ZARA", "price" : "22.90", "url" : "https://www.zara.com/us/en/trf/new-in/ungendered-power-rangers-t-shirt-c805004p4662002.html"},
+    "images/gifts/f-low-dark-regular-02-01.jpg" : {"name" : "Midi Wrap Skirt", "seller" : "ZARA", "price" : "49.90", "url" : "https://www.zara.com/us/en/woman/skirts/view-all/midi-wrap-skirt-c719016p4340021.html"},
+    "images/gifts/f-low-dark-regular-03-01.jpg" : {"name" : "VELVET HIGH HEEL SHOES", "seller" : "ZARA", "price" : "69.90", "url" : "https://www.zara.com/us/en/woman/shoes/view-all/velvet-high-heel-shoes-c719531p4221551.html"},
+    "images/gifts/f-low-dark-regular-04-01.jpg" : {"name" : "Medallions Necklace", "seller" : "ZARA", "price" : "22.90", "url" : "https://www.zara.com/us/en/woman/accessories/view-all/medallions-necklace-c719013p4550004.html"},
+    "images/gifts/f-low-dark-regular-05-01.jpg" : {"name" : "Ecologically Grown Cotton T-shirt With Frill", "seller" : "ZARA", "price" : "22.90", "url" : "https://www.zara.com/us/en/trf/new-in/ecologically-grown-cotton-t-shirt-with-frill-c805004p4594508.html"},
+    "images/gifts/f-low-dark-regular-06-01.jpg" : {"name" : "T-shirt With Fringes", "seller" : "ZARA", "price" : "35.90", "url" : "https://www.zara.com/us/en/woman/new-in/t-shirt-with-fringes-c805003p4523042.html"}
+}
+

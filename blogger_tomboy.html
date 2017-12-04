@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Blogger</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <link href="css/custom-theme/jquery-ui-1.10.0.custom.css" type="text/css" rel="stylesheet">
+
+
+        <link rel="stylesheet" type="text/css" href="index.css">
+
+
+        <!-- Below link for font -->
+        <link href="https://fonts.googleapis.com/css?family=Monda" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+
+
+        <!-- Below link for footer -->
+        <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+
+        <!-- Below link for top nav -->
+        <link href="library/bootstrap3/css/bootstrap.css" rel="stylesheet" />
+        <link href="library/bootstrap3/css/font-awesome.css" rel="stylesheet" />
+
+        <link href="library/assets/css/gsdk.css" rel="stylesheet" />
+        <link href="library/assets/css/demo.css" rel="stylesheet" />
+
+        <!-- Below link for layout -->
+        <link rel="stylesheet" href="css/blogger_main.css">
+        <!--Below link for my favourites>-->
+        <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.2.4/css/simple-line-icons.min.css'>
+
+
+
+    </head>
+
+	<body data-template="news" class="is-loaded is-mobile is-animated">
+
+		<div id="navbar-full">
+    		<div id="navbar">
+
+        		<nav class="navbar navbar-ct-grey navbar-fixed-top" role="navigation">
+
+          			<div class="container">
+            		<!-- Brand and toggle get grouped for better mobile display -->
+            			<div class="navbar-header">
+              				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              					<span class="sr-only">Toggle navigation</span>
+				                <span class="icon-bar"></span>
+				                <span class="icon-bar"></span>
+				                <span class="icon-bar"></span>
+              				</button>
+              				<a class="navbar-brand" href="index.html">LookBook</a>
+            			</div>
+
+		            	<!-- Collect the nav links, forms, and other content for toggling -->
+			            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			              	<ul class="nav navbar-nav">
+			                	<li>
+			                    	<a href="javascript:void(0);" data-toggle="search" class="hidden-xs"><i class="fa fa-search"></i></a>
+			                	</li>
+			              	</ul>
+			            	<form class="navbar-form navbar-left navbar-search-form" role="search">
+			                	<div class="form-group">
+			                    	<input type="text" class="form-control" onkeypress="handle(event)" placeholder="Search...">
+			                 	</div>
+			              	</form>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="myFavourites.html">My Likes</a></li>
+                                <li><a href="#" class="hidden-xs"><i class="fa fa-heart"><span class='number'>&nbsp;&nbsp;0</span></i></a></li>
+                            </ul>
+			            </div><!-- end of navbar-collapse -->
+          			</div><!-- end of container -->
+        		</nav>
+    		</div><!--  end navbar -->
+		</div> <!-- end menu-dropdown -->
+
+       <main data-module="ScrollPage">
+
+            <div class="o-page js-template" data-template="news">
+
+                <header class="c-header-page -fixed -news">
+                    <div class="c-header-page_section -auto-medium js-scroll-section is-active" data-scroll-section="1" data-scroll-section-translate="false">
+                        <div class="c-header-page_item">
+                            <div class="c-header-page_content -load -dark -noright">
+                                <p class="c-header-page_subtitle">Bloggers</p>
+                                <h1 class="c-header-page_title -small -lowercase -white">
+                                    Tomboy <br>Style
+                                </h1>
+                                <a href="" class="o-button-anchor js-scroll-section-next"><p class="c-header-page_subtitle">&#8594 See related bloggers</p></a>
+
+                            </div>
+                        </div>
+                        <div class="c-header-page_item">
+                            <div class="c-header-page_image -load -white o-background"></div>
+                        </div>
+                        <div class="o-button-next -load -white -nomedium"></div>
+                    </div>
+                </header>
+
+                <div class="c-news-wrap o-container">
+                    <div class="o-grid -margin">
+                        <div class="o-grid_item -two-thirds -medium -whole-medium">
+                            <div class="c-news" data-module="News">
+                                <article class="c-news_item js-news-item">
+                                    <div class="c-news_wrap">
+                                        <div class="container-flex-row-center-nowrap">
+                                            <div class="profile-pic">
+                                                <img class="scale" src="images/blogger/B_W/carriec-look1.jpg">
+                                            </div>
+                                            <div class="container-flex-column-left">
+                                                <h1 class="">Carrie Colbert</h1>
+                                                <p class="">Wear+Where+Well : fashion+travel+lifestyle</p>
+                                                <p>
+                                                    <i class="fa fa-instagram"></i>
+                                                    77.1K+ followers
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="c-news_main s-wysiwyg js-news-main">
+                                            <div class="c-news_content container-flex-column-center">
+                                            <h1 class="bottom-line-text">
+                                                        Carrie's Look
+                                            </h1>
+                                                <div class="container-flex-column-center bg-white">
+
+
+                                                    <div class="product-pic">
+                                                        <img src="images/blogger/B_W/carriec-look1.jpg" alt="Carriec's look" id="B_W/carriec-look1">
+                                                    </div>
+                                                    <p class="bottom-line-text">Shop the Look</p>
+                                                    <div class="container-flex-row-left-wrap items">
+
+                                                        <div class="items-pic">
+                                                            <a href="" target="_blank">
+                                                                <img class="image-responsive" src="images/blogger/B_W/carriec-w1-dress-color.jpg" alt="dress">
+                                                            </a>
+
+                                                        </div>
+
+
+                                                        <div class="items-pic">
+                                                            <a href="" target="_blank">
+                                                                <img class="image-responsive" src="images/blogger/B_W/carriec-w1-ring-blue.jpg" alt="ring">
+                                                            </a>
+                                                        </div>
+
+
+                                                        <div class="items-pic">
+                                                            <a href="" target="_blank">
+                                                                <img class="image-responsive" src="images/blogger/B_W/carriec-w1-bag-yellow.jpg" alt="bag">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="items-pic">
+                                                            <a href="" target="_blank">
+                                                                <img class="image-responsive" src="images/blogger/B_W/carriec-w1-sunglass-pink.jpg" alt="sunglass">
+                                                            </a>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="container-flex-row-center-nowrap add-margin">
+                                                        <button class="blogger-btn" onclick="addToMyLike(this)" name="B_W/carriec-look1.jpg"><i class="fa fa-heart"></i>&#32&#32Like</button>
+                                                        <button class="blogger-btn"><i class="fa fa-share"></i>&#32&#32Share</button>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="c-news_content">
+                                                <div class="container-flex-column-center bg-white">
+                                                    <div class="product-pic">
+                                                        <img src="images/blogger/B_W/carriec-look2.jpg" alt="Carriec's look" id="B_W/carriec-look2">
+                                                    </div>
+                                                    <p class="bottom-line-text">Shop the Look</p>
+                                                    <div class="container-flex-row-left-wrap items">
+
+                                                        <div class="items-pic">
+                                                            <a href="" target="_blank">
+                                                                <img class="image-responsive" src="images/blogger/B_W/carriec-w2-top-blue.jpg" alt="top">
+                                                            </a>
+
+                                                        </div>
+
+
+                                                        <div class="items-pic">
+                                                            <a href="" target="_blank">
+                                                                <img class="image-responsive" src="images/blogger/B_W/carriec-w2-pant-green.jpg" alt="pant">
+                                                            </a>
+                                                        </div>
+
+
+                                                        <div class="items-pic">
+                                                            <a href="" target="_blank">>
+                                                                <img class="image-responsive" src="images/blogger/B_W/carriec-w2-shoes-yellow.jpg" alt="shoe">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="items-pic">
+                                                            <a href="" target="_blank">
+                                                                <img class="image-responsive" src="images/blogger/B_W/carriec-w2-necklace-white.jpg" alt="necklace">
+                                                            </a>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="container-flex-row-center-nowrap add-margin">
+                                                        <button class="blogger-btn" onclick="addToMyLike(this)" name="B_W/carriec-look2.jpg"><i class="fa fa-heart"></i>&#32&#32Like</button>
+                                                        <button class="blogger-btn"><i class="fa fa-share"></i>&#32&#32Share</button>
+                                                    </div>
+                                                </div>
+
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="c-news_plus js-news-close"><span class="c-news_plus_wrap"></span></span>
+                                </article>
+
+                                <article class="c-news_item js-news-item">
+                                    <div class="c-news_wrap">
+                                        <div class="container-flex-row-center-nowrap">
+                                            <div class="profile-pic">
+                                                <img class="scale" src="images/blogger/B_W/lynleeposton-look1.jpg">
+                                            </div>
+                                            <div class="container-flex-column-left">
+                                                <h1 class="">Lynlee Poston</h1>
+                                                <p class="">I hope you like pictures of clothes and my BFF </p>
+                                                <p>
+                                                    <i class="fa fa-instagram"></i>
+                                                    72.3K+ followers
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="c-news_main s-wysiwyg js-news-main">
+                                            <div class="c-news_content container-flex-column-center">
+                                            <h1 class="bottom-line-text">
+                                                        Lynlee's Look
+                                            </h1>
+                                                <div class="container-flex-column-center bg-white">
+
+
+                                                    <div class="product-pic">
+                                                        <img src="images/blogger/B_W/lynleeposton-look1.jpg" alt="Carriec's look" id="B_W/lynleeposton-look1">
+                                                    </div>
+                                                    <p class="bottom-line-text">Shop the Look</p>
+                                                    <div class="container-flex-row-left-wrap items">
+
+                                                        <div class="items-pic">
+                                                            <a href="" target="_blank">
+                                                                <img class="image-responsive" src="images/blogger/B_W/lyn-w1-dress-red.jpg" alt="dress">
+                                                            </a>
+                                                        </div>
+
+
+                                                        <div class="items-pic">
+                                                            <a href="" target="_blank">
+                                                                <img class="image-responsive" src="images/blogger/B_W/lyn-w1-ring-green.jpg" alt="ring">
+                                                            </a>
+                                                        </div>
+
+
+                                                        <div class="items-pic">
+                                                            <a href="" target="_blank">
+                                                                <img class="image-responsive" src="images/blogger/B_W/lyn-w1-bag-yellow.jpg" alt="bag">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="items-pic">
+                                                            <a href="" target="_blank">
+                                                                <img class="image-responsive" src="images/blogger/B_W/lyn-w1-bracelet-yellow.jpg" alt="bracelet">
+                                                            </a>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="container-flex-row-center-nowrap add-margin">
+                                                        <button class="blogger-btn" onclick="addToMyLike(this)" name="B_W/lynleeposton-look1.jpg"><i class="fa fa-heart"></i>&#32&#32Like</button>
+                                                        <button class="blogger-btn"><i class="fa fa-share"></i>&#32&#32Share</button>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="c-news_content">
+                                                <div class="container-flex-column-center bg-white">
+                                                    <div class="product-pic">
+                                                        <img src="images/blogger/B_W/lynleeposton-look2.jpg" alt="Carriec's look" id="B_W/lynleeposton-look2">
+                                                    </div>
+                                                    <p class="bottom-line-text">Shop the Look</p>
+                                                    <div class="container-flex-row-left-wrap items">
+
+                                                        <div class="items-pic">
+                                                            <a href="" target="_blank">
+                                                                <img class="image-responsive" src="images/blogger/B_W/lyn-w2-dress-yellow.jpg" alt="dress">
+                                                            </a>
+                                                        </div>
+
+
+                                                        <div class="items-pic">
+                                                            <a href="" target="_blank">
+                                                                <img class="image-responsive" src="images/blogger/B_W/lyn-w2-hat-yellow.jpg" alt="hat">
+                                                            </a>
+                                                        </div>
+
+
+                                                        <div class="items-pic">
+                                                            <a href="" target="_blank">
+                                                                <img class="image-responsive" src="images/blogger/B_W/lyn-w2-bag-none.jpg" alt="bag">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="items-pic">
+                                                            <a href="" target="_blank">
+                                                                <img class="image-responsive" src="images/blogger/B_W/lyn-w2-sunglass-pink.jpg" alt="sunglass">
+                                                            </a>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="container-flex-row-center-nowrap add-margin">
+                                                        <button class="blogger-btn" onclick="addToMyLike(this)" name="B_W/lynleeposton-look2.jpg"><i class="fa fa-heart"></i>&#32&#32Like</button>
+                                                        <button class="blogger-btn"><i class="fa fa-share"></i>&#32&#32Share</button>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="c-news_plus js-news-close"><span class="c-news_plus_wrap"></span></span>
+                                </article>
+
+
+
+                                <div >
+                                    <button class="o-button-next -relative -on-black" type="button"><span><span class="o-button-next_label"></span> <svg class="o-button-next_icon" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="assets/images/sprite.svg#arrow-small-down"></use></svg></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script>
+                window.templateData = window.templateData || {};
+
+            </script>
+
+        </main>
+
+
+
+
+        <footer class="footer-distributed">
+            <div class="footer-left">
+                <h3>Look<span>Book</span></h3>
+                <p class="footer-links">
+                    <a href="index.html">Home</a>
+                    ·
+                    <a href="myFavourites.html">My Likes</a>
+                    ·
+                    <a href="mailto:support@husky.neu.edu">Contact</a>
+                </p>
+                <p class="footer-company-name">Lookbook &copy; 2017</p>
+            </div>
+            <div class="footer-center">
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>225 Terry Ave</span> Seattle, WA</p>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+1 123 456789</p>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:support@company.com">support@husky.neu.edu</a></p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p class="footer-company-about">
+                    <span>About the website</span>
+                    Lookbook is a fashion design website. It helps visitors to keep in track of fashion trend and it is a guide for choosing gift.
+                </p>
+                <div class="footer-icons">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+    	</footer>
+
+        <!-- below link add for topnav -->
+        <script src="library/bootstrap3/js/bootstrap.js" type="text/javascript"></script>
+        <script src="library/assets/js/gsdk-bootstrapswitch.js"></script>
+        <script src="library/assets/js/get-shit-done.js"></script>
+
+        <!-- below link for layout -->
+        <script src="js/vendors.js"></script>
+        <script src="js/app.js"></script>
+        
+        <!-- below link for search function -->
+        <script src="js/search.js"></script>
+
+        <!--below link for my favourites function -->
+        <script src="js/likeButton.js"></script>
+
+	</body>
+
+</html>

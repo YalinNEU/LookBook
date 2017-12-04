@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fan of Fashion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" type="text/css" href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>-->
+    <link href="https://fonts.googleapis.com/css?family=Monda" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="gift.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+    <script src="js/gift.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+        <!-- Below link for top nav -->
+    <link href="library/bootstrap3/css/font-awesome.css" rel="stylesheet" />
+
+    <link href="library/assets/css/gsdk.css" rel="stylesheet" />
+    <link href="library/assets/css/demo.css" rel="stylesheet" />
+</head>
+<body>
+
+
+
+    <div id="navbar-full">
+            <div id="navbar">
+
+                <nav class="navbar navbar-ct-grey navbar-fixed-top" role="navigation">
+
+                    <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="index.html">LookBook</a>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li>
+                                    <a href="javascript:void(0);" data-toggle="search" class="hidden-xs"><i class="fa fa-search"></i></a>
+                                </li>
+                            </ul>
+                            <form class="navbar-form navbar-left navbar-search-form" role="search">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" onkeypress="handle(event)" placeholder="Search...">
+                                </div>
+                            </form>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="myFavourites.html" class="">My Likes</a></li>
+                                <li><a href="#" class="hidden-xs"><i class="fa fa-heart"><span class='number'>&nbsp;&nbsp;0</span></i></a></li>
+                            </ul>
+                        </div><!-- end of navbar-collapse -->
+                    </div><!-- end of container -->
+                </nav>
+            </div><!--  end navbar -->
+        </div> <!-- end menu-dropdown -->
+
+
+<div class="gift-top">
+    <div class="gift-blogger1">
+        <div class="mobile-head">Shop Gifts</div>
+        <p>Blogger's Choice <span style="font-size:15px">-- Marked by <img style="width:15px; height:15px; margin-top: 0px" src="images/heart.gif" alt="heartgif"></span></p>
+
+        <div class="w3-content w3-section" style="max-width:500px" id="topCarousel">
+            <img class="mySlides w3-animate-fading" src="images/gifts/top-f-low-bright-curve-1.jpg" >
+            <img class="mySlides w3-animate-fading" src="images/gifts/top-f-low-bright-curve-2.jpg" >
+        </div>
+    </div>
+    <div class="gift-blogger2">
+        <div class="intro">
+            <p> <span id="head1" class="fadein">S</span>
+                <span id="head2" class="fadein">H</span>
+                <span id="head3" class="fadein">O</span>
+                <span id="head4" class="fadein">P</span>
+                <span id="head5" class="fadein">・</span>
+                <span id="head6" class="fadein">G</span>
+                <span id="head7" class="fadein">I</span>
+                <span id="head8" class="fadein">F</span>
+                <span id="head9" class="fadein">T</span>
+                <span id="head10" class="fadein">S</span>
+            </p>
+        </div>
+    </div>
+</div>
+
+<script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+//        console.log(x.length);
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 7000);
+    }
+</script>
+
+<div class="container-fluid text-center">
+    <div class="col-sm-5">
+        <div class="inner"></div>
+    </div>
+    <div class="col-sm-2">
+        <p>On-trend items</p>
+    </div>
+    <div class="col-sm-5">
+        <div class="inner"></div>
+    </div>
+</div>
+<div class="container-fluid text-center">
+    <div class="row content" id="gift-body">
+        <div class="col-sm-4">
+<!--row1/col1........................................................................................................-->
+            <div class="btn btn-info btn-lg" data-toggle="modal" data-target="#gift6">
+                <img class="gift-img" src="images/gifts/f-low-bright-curve-06-01.jpg"/>
+            </div>
+            <div class="modal fade" id="gift6" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div id="myCarousel-gift6" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#myCarousel-gift6" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myCarousel-gift6" data-slide-to="1" class="active"></li>
+                                </ol>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <img src="images/gifts/f-low-bright-curve-06-01.jpg"/>
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/gifts/f-low-bright-curve-06-02.jpg"/><br>
+                                    </div>
+                                </div>
+                                <a class="left carousel-control" href="#myCarousel-gift6" role="button"
+                                   data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel-gift6" role="button"
+                                   data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="model-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gift-purchase">
+                <img style="width:20px; height:20px; margin-top: 8px" src="images/heart.gif" alt="heartgif">
+                <div class="gift-purchase-price"><p>$ 34.99</p></div>
+                <a href="http://www.hm.com/us/product/65772?article=65772-A" target="_blank"><div><button><p>Purchase</p></button></div></a>
+            </div>
+<!--row1/col2........................................................................................................-->
+            <div class="btn btn-info btn-lg" data-toggle="modal" data-target="#gift2">
+                <img class="gift-img" src="images/gifts/f-low-bright-curve-02-01.jpg"/>
+            </div>
+            <div class="modal fade" id="gift2" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div id="myCarousel-gift2" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#myCarousel-gift2" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myCarousel-gift2" data-slide-to="1" class="active"></li>
+                                </ol>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <img src="images/gifts/f-low-bright-curve-02-01.jpg"/>
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/gifts/f-low-bright-curve-02-02.jpg"/><br>
+                                    </div>
+                                </div>
+                                <a class="left carousel-control" href="#myCarousel-gift2" role="button"
+                                   data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel-gift2" role="button"
+                                   data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="model-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gift-purchase">
+                <img style="width:20px; height:20px; margin-top: 8px" src="images/heart.gif" alt="heartgif">
+                <div class="gift-purchase-price"><p>$ 39.90</p></div>
+                <a href="https://www.zara.com/us/en/woman/bags/view-all/crossbody-bag-with-multicoloured-strap-c819022p4258048.html" target="_blank"><div><button><p>Purchase</p></button></div></a>
+            </div>
+        </div>
+        <div class="col-sm-4">
+<!--row1/col2........................................................................................................-->
+            <div class="btn btn-info btn-lg" data-toggle="modal" data-target="#gift3">
+                <img class="gift-img" src="images/gifts/f-low-bright-curve-03-01.jpg"/>
+            </div>
+            <div class="modal fade" id="gift3" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div id="myCarousel-gift3" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#myCarousel-gift3" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myCarousel-gift3" data-slide-to="1" class="active"></li>
+                                </ol>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <img src="images/gifts/f-low-bright-curve-03-01.jpg"/>
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/gifts/f-low-bright-curve-03-02.jpg"/><br>
+                                    </div>
+                                </div>
+                                <a class="left carousel-control" href="#myCarousel-gift3" role="button"
+                                   data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel-gift3" role="button"
+                                   data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="model-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gift-purchase">
+                <div class="gift-purchase-price"><p>$ 59.99</p></div>
+                <a href="http://www.hm.com/us/product/63953?article=63953-A" target="_blank"><div><button><p>Purchase</p></button></div></a>
+            </div>
+<!--row2/col2........................................................................................................-->
+            <div class="btn btn-info btn-lg" data-toggle="modal" data-target="#gift4">
+                <img class="gift-img" src="images/gifts/f-low-bright-curve-04-01.jpg"/>
+            </div>
+            <div class="modal fade" id="gift4" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div id="myCarousel-gift4" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#myCarousel-gift4" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myCarousel-gift4" data-slide-to="1" class="active"></li>
+                                </ol>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <img src="images/gifts/f-low-bright-curve-04-01.jpg"/>
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/gifts/f-low-bright-curve-04-01.jpg"/><br>
+                                    </div>
+                                </div>
+                                <a class="left carousel-control" href="#myCarousel-gift4" role="button"
+                                   data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel-gift4" role="button"
+                                   data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="model-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gift-purchase">
+                <div class="gift-purchase-price"><p>$ 49.99</p></div>
+                <a href="http://www.hm.com/us/product/64132?article=64132-A" target="_blank"><div><button><p>Purchase</p></button></div></a>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+<!--row3/col1........................................................................................................-->
+            <div class="btn btn-info btn-lg" data-toggle="modal" data-target="#gift5">
+                <img class="gift-img" src="images/gifts/f-low-bright-curve-05-01.jpg"/>
+            </div>
+            <div class="modal fade" id="gift5" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div id="myCarousel-gift5" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#myCarousel-gift5" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myCarousel-gift5" data-slide-to="1" class="active"></li>
+                                </ol>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <img src="images/gifts/f-low-bright-curve-05-01.jpg"/>
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/gifts/f-low-bright-curve-05-02.jpg"/><br>
+                                    </div>
+                                </div>
+                                <a class="left carousel-control" href="#myCarousel-gift5" role="button"
+                                   data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel-gift5" role="button"
+                                   data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="model-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gift-purchase">
+                <div class="gift-purchase-price"><p>$ 49.90</p></div>
+                <a href="https://www.zara.com/us/en/woman/shoes/view-all/satin-high-heel-shoes-with-straps-c719531p4221553.html" target="_blank"><div><button><p>Purchase</p></button></div></a>
+            </div>
+<!--row3/col2........................................................................................................-->
+
+            <div class="btn btn-info btn-lg" data-toggle="modal" data-target="#gift1">
+                <img class="gift-img" src="images/gifts/f-low-bright-curve-01-01.jpg"/>
+            </div>
+            <div class="modal fade" id="gift1" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div id="myCarousel-gift1" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#myCarousel-gift1" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myCarousel-gift1" data-slide-to="1" class="active"></li>
+                                </ol>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <img src="images/gifts/f-low-bright-curve-01-01.jpg"/>
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/gifts/f-low-bright-curve-01-02.jpg"/><br>
+                                    </div>
+                                </div>
+                                <a class="left carousel-control" href="#myCarousel-gift1" role="button"
+                                   data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel-gift1" role="button"
+                                   data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="model-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gift-purchase">
+                <div class="gift-purchase-price"><p>$ 34.00</p></div>
+                <a href="http://us.asos.com/pink-clove/pink-clove-leopard-print-dress/prd/7941242?CTAref=Recently+Viewed&clr=Multi" target="_blank"><div><button><p>Purchase</p></button></div></a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="row">
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <h3>Look<span>Book</span></h3>
+
+            <p class="footer-links">
+                <a href="#">Home</a>
+                ·
+                <a href="#">Blog</a>
+                ·
+                <a href="#">My Favourites</a>
+                ·
+                <a href="#">About</a>
+                ·
+                <a href="#">Faq</a>
+                ·
+                <a href="#">Contact</a>
+            </p>
+
+            <p class="footer-company-name">Lookbook &copy; 2017</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>225 Terry Ave</span> Seattle, WA</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+1 123 456789</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@company.com">support@husky.neu.edu</a></p>
+            </div>
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <span>About the website</span>
+                Lookbook is a fashion design website. It helps visitors to keep in track of fashion trend and it is a guide for choosing gift.
+            </p>
+
+            <div class="footer-icons">
+
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+
+            </div>
+
+        </div>
+
+    </footer>
+</div>
+
+<main class="cd-main-content"></main>
+
+
+<nav id="cd-lateral-nav">
+    <ul class="cd-navigation">
+        <li class="item-has-children">
+            <a href="#0">Category</a>
+            <ul class="sub-menu">
+                <li><a href="#0">Clothings</a></li>
+                <li><a href="#0">Pants</a></li>
+                <li><a href="#0">Dresses</a></li>
+                <li><a href="#0">Bags</a></li>
+                <li><a href="#0">Shoes</a></li>
+            </ul>
+        </li> <!-- item-has-children -->
+
+        <li class="item-has-children">
+            <a href="#">My Favourites&nbsp;&nbsp;<i class="ion-heart"></i>&nbsp;&nbsp;<span class='number'>0</span></a>
+            <ul class="sub-menu">
+                <li><a href="myFavourites.html">Wish List</a></li>
+                <li><a href="#0">Gift List</a></li>
+            </ul>
+        </li> <!-- item-has-children -->
+
+        <li class="item-has-children">
+            <a href="#0">Account</a>
+            <ul class="sub-menu">
+                <li><a href="#0">Login</a></li>
+                <li><a href="#0">Register</a></li>
+            </ul>
+        </li> <!-- item-has-children -->
+    </ul> <!-- cd-navigation -->
+
+    <ul class="cd-navigation cd-single-item-wrapper">
+        <li><a href="#0">Contact Us</a></li>
+        <li><a href="#0">Terms & Conditions</a></li>
+    </ul> <!-- cd-single-item-wrapper -->
+
+    <div class="cd-navigation socials">
+        <a class="cd-twitter cd-img-replace" href="#0">Twitter</a>
+        <a class="cd-instagram cd-img-replace" href="#0">Instagram</a>
+        <a class="cd-facebook cd-img-replace" href="#0">Facebook</a>
+        <a class="cd-google cd-img-replace" href="#0">Google Plus</a>
+    </div> <!-- socials -->
+</nav>
+
+    <!-- below link add for topnav -->
+    <script src="library/bootstrap3/js/bootstrap.js" type="text/javascript"></script>
+    <script src="library/assets/js/gsdk-bootstrapswitch.js"></script>
+    <script src="library/assets/js/get-shit-done.js"></script>
+
+
+    <!-- below link for search function -->
+    <script src="js/search.js"></script>
+    <!--below link for my favourites function -->
+    <script src="js/likeButton.js"></script>
+
+</body>
+</html>
